@@ -4,6 +4,7 @@
 //--------------------------------------------------------------
 void ofApp::setup()
 {
+    // Choose the data file in the bin directory to visualize.
     mesh.load("sector.ply");
     puppet.setup(mesh);
     puppet.setControlPoint(0);
@@ -34,7 +35,6 @@ void ofApp::draw()
     ofBackground(0);
 	//puppet.drawWireframe();
 	puppet.drawControlPoints();
-    
     butterfly.subdivide(puppet.getDeformedMesh(), subs).drawWireframe();
 }
 
@@ -48,17 +48,25 @@ void ofApp::keyPressed(int key)
 void ofApp::keyReleased(int key)
 {
     
-    // Subdivde the mesh upon the 's' key being pressed.
-    if(key == 'm')
+    // More subdividing.
+    if(key == 'm' || key == OF_KEY_RIGHT)
     {
         subs++;
     }
-    
-    if(key == 'l')
+
+    // Less subdividing.
+    if((key == 'l' || key == OF_KEY_LEFT) && subs > 0)
     {
         subs--;
     }
-     /*
+    
+    /* 
+     * Below code may be used if you wish to subdivide the puppet's source mesh
+     * instead of just subdividing its output mesh.
+     * If this is used then the subdivided point may be used as control point in the puppeteering.
+     */
+    
+     /*      
         // Store control points.
         std::map<int, ofVec2f> points;
         puppet.getControlPoints(points);

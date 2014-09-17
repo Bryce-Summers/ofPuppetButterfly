@@ -2,16 +2,13 @@
 //  cubic_spline.cpp
 //  ofPuppetButterfly
 //
-//  Created by Tube on 9/16/14.
+//  Created by Bryce Summers on 9/16/14.
 //
-//
+// Adapted to C++ from Bryce's personal code endeavors.
 
 #include "cubic_spline.h"
 
-
 // Coefficients of a cubic polynomial.
-
-    
 cubic_spline::cubic_spline(ofVec3f p1, ofVec3f t1, ofVec3f p2, ofVec3f t2)
 {
 	/*
@@ -27,12 +24,12 @@ cubic_spline::cubic_spline(ofVec3f p1, ofVec3f t1, ofVec3f p2, ofVec3f t2)
 	D = p1;
 }
     
-	// REQUIRES : input should be between 0 and 1.0;
+// REQUIRES : input should be between 0 and 1.0;
 ofVec3f cubic_spline::eval(float input)
 {
 	if(input < 0 || input > 1.0)
 	{
-		//throw new Error("Error: Input not in function domain!");
+		throw RuntimeError("Error: Input not in function domain!");
 	}
 	
 	double x_1 = input;

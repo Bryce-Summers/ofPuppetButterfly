@@ -10,6 +10,7 @@
 #define __ofPuppetButterfly__cubic_spline__
 
 #include "ofMain.h"
+#include "error.hpp"
 
 class cubic_spline
 {

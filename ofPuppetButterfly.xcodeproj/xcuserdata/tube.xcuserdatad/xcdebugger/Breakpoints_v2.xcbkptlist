@@ -184,11 +184,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432664732.401484"
+            timestampString = "432670315.975097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
             landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
             landmarkType = "5">
          </BreakpointContent>
@@ -200,11 +200,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432664805.390004"
+            timestampString = "432670315.975097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
             landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
             landmarkType = "5">
          </BreakpointContent>
@@ -216,11 +216,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432664902.499806"
+            timestampString = "432670315.975097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
             landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
             landmarkType = "5">
          </BreakpointContent>
@@ -232,11 +232,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432668054.402939"
+            timestampString = "432670315.975097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
             landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
             landmarkType = "5">
          </BreakpointContent>
@@ -248,43 +248,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432664908.97217"
+            timestampString = "432670315.975097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
-            landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432668054.402939"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
-            landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432668084.545708"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "255"
-            endingLineNumber = "255"
+            startingLineNumber = "324"
+            endingLineNumber = "324"
             landmarkName = "WingedEdge::getOtherBoundaryVertice(Vertex &amp;a, Edge &amp;forbidden_edge)"
             landmarkType = "5">
          </BreakpointContent>

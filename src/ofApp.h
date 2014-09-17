@@ -7,7 +7,8 @@
 
 //#include <Accelerate/Accelerate.h>
 
-class ofApp : public ofBaseApp{
+class ofApp : public ofBaseApp
+{
 
 	public:
 		void setup();
@@ -32,5 +33,8 @@ class ofApp : public ofBaseApp{
     
     ofxButterfly butterfly;
     
+    /* The number of subdivisions that should be performed on the
+     * deformed mesh of the puppet at every frame.
+     */
     int subs = 0;
 };
