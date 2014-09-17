@@ -31,4 +31,6 @@ class ofApp : public ofBaseApp{
    	ofxPuppetInteractive puppet;
     
     ofxButterfly butterfly;
+    
+    int subs = 0;
 };

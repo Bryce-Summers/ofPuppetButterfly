@@ -4,8 +4,10 @@
 //--------------------------------------------------------------
 void ofApp::setup()
 {
-    mesh.load("handmarksNew.ply");
+    mesh.load("sector.ply");
     puppet.setup(mesh);
+    puppet.setControlPoint(0);
+    puppet.setControlPoint(1);
 }
 
 //--------------------------------------------------------------
@@ -30,8 +32,10 @@ void ofApp::draw()
      */
     
     ofBackground(0);
-	puppet.drawWireframe();
+	//puppet.drawWireframe();
 	puppet.drawControlPoints();
+    
+    butterfly.subdivide(puppet.getDeformedMesh(), subs).drawWireframe();
 }
 
 //--------------------------------------------------------------
@@ -43,9 +47,18 @@ void ofApp::keyPressed(int key)
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key)
 {
+    
     // Subdivde the mesh upon the 's' key being pressed.
-    if(key == 's')
+    if(key == 'm')
     {
+        subs++;
+    }
+    
+    if(key == 'l')
+    {
+        subs--;
+    }
+     /*
         // Store control points.
         std::map<int, ofVec2f> points;
         puppet.getControlPoints(points);
@@ -60,7 +73,7 @@ void ofApp::keyReleased(int key)
             puppet.setControlPoint(iter -> first, iter -> second);
         }
         
-    }
+    }*/
 }
 
 //--------------------------------------------------------------

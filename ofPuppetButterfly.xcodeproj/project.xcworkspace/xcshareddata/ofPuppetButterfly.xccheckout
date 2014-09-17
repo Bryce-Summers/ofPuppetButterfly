@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>703B6157-5650-4C13-99F5-2BA13C8CF862</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ofPuppetButterfly</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7B2696EE-6A15-482F-A970-E67BF642733F</key>
+		<string>https://github.com/Bryce-Summers/ofPuppetButterfly.git</string>
+		<key>9E7A8681-05C2-4814-A0C7-05D7619ED9FE</key>
+		<string>https://github.com/Bryce-Summers/ofxButterfly.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ofPuppetButterfly.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7B2696EE-6A15-482F-A970-E67BF642733F</key>
+		<string>../..</string>
+		<key>9E7A8681-05C2-4814-A0C7-05D7619ED9FE</key>
+		<string>../../../../../addons/ofxButterfly</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Bryce-Summers/ofPuppetButterfly.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7B2696EE-6A15-482F-A970-E67BF642733F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B2696EE-6A15-482F-A970-E67BF642733F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofPuppetButterfly</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9E7A8681-05C2-4814-A0C7-05D7619ED9FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxButterfly</string>
+		</dict>
+	</array>
+</dict>
+</plist>
