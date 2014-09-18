@@ -19,5 +19,6 @@ REQUIRES:
 	Open Frameworks: https://github.com/openframeworks/openFrameworks
 
 Open Frameworks Addons:
-		ofxButterfly: https://github.com/Bryce-Summers/ofxButterfly
-		ofxPuppet: https://github.com/ofZach/ofxPuppet
+
+ofxButterfly: https://github.com/Bryce-Summers/ofxButterfly		
+ofxPuppet: https://github.com/ofZach/ofxPuppet
