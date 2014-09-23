@@ -1,5 +1,4 @@
 #include "ofApp.h"
-#include<map>
 
 //--------------------------------------------------------------
 void ofApp::setup()
@@ -37,8 +36,8 @@ void ofApp::draw()
 	puppet.drawControlPoints();
     //butterfly.subdivideLinear(puppet.getDeformedMesh(), subs).drawWireframe();
     //butterfly.subdividePascal(puppet.getDeformedMesh(), subs).drawWireframe();
-    //butterfly.subdivideButterfly(puppet.getDeformedMesh(), subs).drawWireframe();
-    butterfly.subdivideBoundary(puppet.getDeformedMesh(), 1.5, subs).drawWireframe();
+    butterfly.subdivideButterfly(puppet.getDeformedMesh(), subs).drawWireframe();
+    //butterfly.subdivideBoundary(puppet.getDeformedMesh(), 1.5, subs).drawWireframe();
 }
 
 //--------------------------------------------------------------

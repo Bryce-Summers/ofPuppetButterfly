@@ -30,6 +30,7 @@
 		856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9604B925D32EE39065747725 /* ofxBaseGui.cpp */; };
 		8DE9AA8AD7FA49DE31F9E7DC /* ofxPuppetInteractive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F66B48CCE78D7E27E4D6248 /* ofxPuppetInteractive.cpp */; };
 		977F6ED619C89D6900B8B60B /* cubic_spline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 977F6ED419C89D6900B8B60B /* cubic_spline.cpp */; };
+		979F3A4219D1D44C00FFFD35 /* cubic_spline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 979F3A4019D1D44C00FFFD35 /* cubic_spline.cpp */; };
 		AA05652D2D87ADBBAB4BAE34 /* RigidMeshDeformer2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A57BEF5A97B38F67C6D5467 /* RigidMeshDeformer2D.cpp */; };
 		B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */; };
 		B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */; };
@@ -179,6 +180,8 @@
 		974AACF856A0A1B7D8F259E0 /* result_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = result_set.h; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h; sourceTree = SOURCE_ROOT; };
 		977F6ED419C89D6900B8B60B /* cubic_spline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cubic_spline.cpp; sourceTree = "<group>"; };
 		977F6ED519C89D6900B8B60B /* cubic_spline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cubic_spline.h; sourceTree = "<group>"; };
+		979F3A4019D1D44C00FFFD35 /* cubic_spline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cubic_spline.cpp; path = ../../../addons/ofxButterfly/src/cubic_spline.cpp; sourceTree = "<group>"; };
+		979F3A4119D1D44C00FFFD35 /* cubic_spline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cubic_spline.h; path = ../../../addons/ofxButterfly/src/cubic_spline.h; sourceTree = "<group>"; };
 		97CFAD0B2F2DB004A8A3BC0B /* objdetect.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = objdetect.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect.hpp; sourceTree = SOURCE_ROOT; };
 		97FBD89E6180673035AD1083 /* video.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = video.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video/video.hpp; sourceTree = SOURCE_ROOT; };
 		9A048549F08C6DFFA79E6DEF /* ofxCvGrayscaleImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCvGrayscaleImage.h; path = ../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.h; sourceTree = SOURCE_ROOT; };
@@ -729,6 +732,8 @@
 				9C426D533404EE2BDAFFF79B /* ofxButterfly.cpp */,
 				B34A735A34505CC36AEF35EF /* ofxButterfly.h */,
 				977F6ED419C89D6900B8B60B /* cubic_spline.cpp */,
+				979F3A4019D1D44C00FFFD35 /* cubic_spline.cpp */,
+				979F3A4119D1D44C00FFFD35 /* cubic_spline.h */,
 				977F6ED519C89D6900B8B60B /* cubic_spline.h */,
 			);
 			name = src;
@@ -941,6 +946,7 @@
 				42E666654C926D5DEE52BA88 /* WmlExtTriangleUtils.cpp in Sources */,
 				1A2136307B1DA29F5C6F6DC8 /* WmlLinearSystemExt.cpp in Sources */,
 				5B6793A95FECAD218508F2C6 /* WmlBandedMatrix.cpp in Sources */,
+				979F3A4219D1D44C00FFFD35 /* cubic_spline.cpp in Sources */,
 				74A484052018B70D494D4DCF /* WmlBox2.cpp in Sources */,
 				977F6ED619C89D6900B8B60B /* cubic_spline.cpp in Sources */,
 				283FE90DAD5D815E794904ED /* WmlGMatrix.cpp in Sources */,
