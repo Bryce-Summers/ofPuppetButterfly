@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/ofApp.cpp"
-            timestampString = "432665495.552225"
+            timestampString = "433176398.341641"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "ofApp::keyReleased(int key)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/ofApp.cpp"
-            timestampString = "432665495.552225"
+            timestampString = "433176398.341641"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "ofApp::keyReleased(int key)"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/src/ofxButterfly.cpp"
-            timestampString = "432664737.82257"
+            timestampString = "433102922.007588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209">
+            startingLineNumber = "199"
+            endingLineNumber = "199">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -56,12 +56,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/src/ofxButterfly.cpp"
-            timestampString = "432664737.82257"
+            timestampString = "433102922.007588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
-            landmarkName = "ofxButterfly::subdivide(ofMesh mesh, int iterations)"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "ofxButterfly::subdivide(ofMesh mesh, int iterations, subdivision_type type, float min_len_edges)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -120,12 +120,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/src/ofxButterfly.cpp"
-            timestampString = "432664737.82257"
+            timestampString = "433102922.007588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "205"
-            endingLineNumber = "205"
-            landmarkName = "ofxButterfly::subdivide(ofMesh mesh, int iterations)"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "ofxButterfly::subdivide(ofMesh mesh, int iterations, subdivision_type type, float min_len_edges)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -136,12 +136,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/src/ofxButterfly.cpp"
-            timestampString = "432664737.82257"
+            timestampString = "433102922.007588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
-            landmarkName = "ofxButterfly::subdivide(ofMesh mesh, int iterations)"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "ofxButterfly::subdivide(ofMesh mesh, int iterations, subdivision_type type, float min_len_edges)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -152,11 +152,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/ofApp.cpp"
-            timestampString = "432665495.552225"
+            timestampString = "433176398.341641"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "ofApp::keyReleased(int key)"
             landmarkType = "5">
          </BreakpointContent>
@@ -168,11 +168,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/ofApp.cpp"
-            timestampString = "432665495.552225"
+            timestampString = "433176398.341641"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "ofApp::keyReleased(int key)"
             landmarkType = "5">
          </BreakpointContent>
@@ -183,13 +183,93 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432670315.975097"
+            filePath = "src/ofApp.cpp"
+            timestampString = "433176398.341641"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
-            landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "ofApp::dragEvent(ofDragInfo info)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/ofApp.cpp"
+            timestampString = "433176398.341641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "ofApp::dragEvent(ofDragInfo info)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "src/ofApp.cpp"
+            timestampString = "433176398.341641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "ofApp::dragEvent(ofDragInfo info)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../libs/openFrameworks/3d/ofMesh.cpp"
+            timestampString = "433099265.371029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "822"
+            endingLineNumber = "822"
+            landmarkName = "ofMesh::load(string path)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../libs/openFrameworks/3d/ofMesh.cpp"
+            timestampString = "433099268.243229"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "815"
+            endingLineNumber = "815"
+            landmarkName = "ofMesh::load(string path)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../addons/ofxButterfly/src/ofxButterfly.cpp"
+            timestampString = "433102922.007588"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "ofxButterfly::subdivide(ofMesh mesh, subdivision_type type, float min_len_edges)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -200,60 +280,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432670315.975097"
+            timestampString = "433177555.566253"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
-            landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432670315.975097"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "212"
-            endingLineNumber = "212"
-            landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432670315.975097"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
-            landmarkName = "WingedEdge::SubdivideEdge(const Face&amp; f1, Edge&amp; e, Vertex b1)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../addons/ofxButterfly/libs/butterfly/mesh.cpp"
-            timestampString = "432670315.975097"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "324"
-            endingLineNumber = "324"
-            landmarkName = "WingedEdge::getOtherBoundaryVertice(Vertex &amp;a, Edge &amp;forbidden_edge)"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "WingedEdge::BoundaryTrianglularSubdivide(float min_len)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

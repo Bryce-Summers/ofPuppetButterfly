@@ -15,6 +15,8 @@
 class cubic_spline
 {
     
+private:
+    
     ofVec3f A, B, C, D;
     
 public:

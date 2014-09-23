@@ -5,7 +5,7 @@
 void ofApp::setup()
 {
     // Choose the data file in the bin directory to visualize.
-    mesh.load("sector.ply");
+    mesh.load("triangle.ply");
     puppet.setup(mesh);
     puppet.setControlPoint(0);
     puppet.setControlPoint(1);
@@ -35,7 +35,10 @@ void ofApp::draw()
     ofBackground(0);
 	//puppet.drawWireframe();
 	puppet.drawControlPoints();
-    butterfly.subdivide(puppet.getDeformedMesh(), subs).drawWireframe();
+    //butterfly.subdivideLinear(puppet.getDeformedMesh(), subs).drawWireframe();
+    //butterfly.subdividePascal(puppet.getDeformedMesh(), subs).drawWireframe();
+    //butterfly.subdivideButterfly(puppet.getDeformedMesh(), subs).drawWireframe();
+    butterfly.subdivideBoundary(puppet.getDeformedMesh(), 1.5, subs).drawWireframe();
 }
 
 //--------------------------------------------------------------
@@ -115,6 +118,14 @@ void ofApp::gotMessage(ofMessage msg){
 }
 
 //--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
-
+// Allows the user to drag files into the window.
+void ofApp::dragEvent(ofDragInfo info)
+{
+    
+   if(info.files.size() > 0)
+   {
+       mesh.load(info.files.at(0));
+       puppet.setup(mesh);
+   }
+    
 }
