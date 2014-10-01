@@ -37,4 +37,9 @@ class ofApp : public ofBaseApp
      * deformed mesh of the puppet at every frame.
      */
     int subs = 0;
+    
+    ofTexture texture;
+    
+private:
+    void updateSubdivisionMesh();
 };

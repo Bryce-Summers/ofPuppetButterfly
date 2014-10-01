@@ -10,35 +10,51 @@
 	<string>ofPuppetButterfly</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7B2696EE-6A15-482F-A970-E67BF642733F</key>
+		<key>10CD7B94AA3F8CC81A82C14DE2AB874080B8D11A</key>
 		<string>https://github.com/Bryce-Summers/ofPuppetButterfly.git</string>
 		<key>9E7A8681-05C2-4814-A0C7-05D7619ED9FE</key>
 		<string>https://github.com/Bryce-Summers/ofxButterfly.git</string>
+		<key>BEC220436EFC41B73DA6D10044042E637CD329BE</key>
+		<string>https://github.com/Bryce-Summers/ofxButterfly.git</string>
+		<key>E3CEEF7062ECD9A173891CC71888AC7F04311EF8</key>
+		<string>https://github.com/golanlevin/ofxPuppet.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ofPuppetButterfly.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7B2696EE-6A15-482F-A970-E67BF642733F</key>
+		<key>10CD7B94AA3F8CC81A82C14DE2AB874080B8D11A</key>
 		<string>../..</string>
 		<key>9E7A8681-05C2-4814-A0C7-05D7619ED9FE</key>
-		<string>../../../../../addons/ofxButterfly</string>
+		<string>../../../addons/ofxButterfly</string>
+		<key>BEC220436EFC41B73DA6D10044042E637CD329BE</key>
+		<string>../../../addons/ofxButterfly</string>
+		<key>E3CEEF7062ECD9A173891CC71888AC7F04311EF8</key>
+		<string>../../../addons/ofxPuppet</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Bryce-Summers/ofPuppetButterfly.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7B2696EE-6A15-482F-A970-E67BF642733F</string>
+	<string>10CD7B94AA3F8CC81A82C14DE2AB874080B8D11A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7B2696EE-6A15-482F-A970-E67BF642733F</string>
+			<string>10CD7B94AA3F8CC81A82C14DE2AB874080B8D11A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofPuppetButterfly</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BEC220436EFC41B73DA6D10044042E637CD329BE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxButterfly</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
@@ -47,6 +63,14 @@
 			<string>9E7A8681-05C2-4814-A0C7-05D7619ED9FE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofxButterfly</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3CEEF7062ECD9A173891CC71888AC7F04311EF8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxPuppet</string>
 		</dict>
 	</array>
 </dict>
