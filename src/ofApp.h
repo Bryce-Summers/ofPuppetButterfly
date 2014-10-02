@@ -39,6 +39,7 @@ class ofApp : public ofBaseApp
     int subs = 0;
     
     ofTexture texture;
+    bool bShowWireframe;
     
 private:
     void updateSubdivisionMesh();

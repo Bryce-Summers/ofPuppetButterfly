@@ -3,12 +3,23 @@
 //--------------------------------------------------------------
 void ofApp::setup()
 {
-    // Choose the data file in the bin directory to visualize.
+    // Initialize the mesh.
     mesh.load("hand-2014-151v-R.ply");
+
+    // Setup its original texture coordinates.
+    int len = mesh.getNumVertices();
+    for(int i = 0; i < len; i++)
+    {
+        ofVec2f vec = mesh.getVertex(i);
+        mesh.addTexCoord(vec);
+    }
+    
+    // Initialize the puppet.
     puppet.setup(mesh);
     puppet.setControlPoint(0);
     puppet.setControlPoint(1);
-
+    
+    
     
     updateSubdivisionMesh();
     
@@ -17,6 +28,7 @@ void ofApp::setup()
     ofImage image;
     image.loadImage("hand-R.png");
     texture = image.getTextureReference();
+    bShowWireframe = false;
     
   
 }
@@ -24,6 +36,7 @@ void ofApp::setup()
 //--------------------------------------------------------------
 void ofApp::update()
 {
+    ofShowCursor();
    puppet.update();
 }
 
@@ -43,7 +56,6 @@ void ofApp::draw()
      */
     
     ofSetColor(255);
-    glLineWidth(3);
     ofBackground(0);
 	//puppet.drawWireframe();
 
@@ -58,14 +70,20 @@ void ofApp::draw()
 
     texture.unbind();
     
-    
-    //subdivided.drawWireframe();
-    
+    //----------------
+    if (bShowWireframe){
+        glLineWidth(1.0);
+        subdivided.drawWireframe();
+    }
     
   	puppet.drawControlPoints();
     
-    ofDrawBitmapString("Press <Right Arrow> to increase the subdivisions!", 0, 50);
-    ofDrawBitmapString("Press <Left  Arrow> to decrease the subdivisions!", 0, 100);
+    int xMargin = 10;
+    ofSetColor(ofColor::wheat);
+    ofDrawBitmapString("# Subdivisions: " + ofToString(subs), xMargin, 30);
+    ofDrawBitmapString("Press <Right Arrow> to increase the edge subdivisions", xMargin, 50);
+    ofDrawBitmapString("Press <Left  Arrow> to decrease the edge subdivisions", xMargin, 70);
+    ofDrawBitmapString("Press 'w' to show wireframe", xMargin, 90);
                        
 }
 
@@ -91,6 +109,10 @@ void ofApp::keyReleased(int key)
     {
         subs--;
         updateSubdivisionMesh();
+    }
+    
+    if (key == 'w'){
+        bShowWireframe = !bShowWireframe;
     }
     
     /* 
@@ -127,16 +149,6 @@ void ofApp::updateSubdivisionMesh()
     }
     
     subdivided = butterfly.topology_end();
-    
-    
-    
-    int len = mesh.getNumVertices();
-    for(int i = 0; i < len; i++)
-    {
-        ofVec2f vec = mesh.getVertex(i);
-        mesh.addTexCoord(vec);
-        subdivided.addTexCoord(vec);
-    }
     
 }
 
